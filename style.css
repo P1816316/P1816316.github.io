@@ -188,8 +188,7 @@ background:#FFB6C1;
    float: left;
    padding: 20px;
    font-size: 16px;
-  
-  
+
 }
 #sidebar ul li a{
 	 text-decoration:none;
@@ -410,6 +409,7 @@ header .nav{
 
 
 /* feedback page */
+
 #article{
 	position:relative;
 	margin-left:350px;
