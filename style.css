@@ -127,8 +127,8 @@ background:#FFB6C1;
 	border: 1px solid #000000;
     clear: both;
 	float: left;
-    opacity: 0.6;
-	filter: alpha (opacity=60); 
+    opacity: 0.8;
+	filter: alpha (opacity=80); 
 }
 .nav1 li{
   float: left;
@@ -155,7 +155,7 @@ background:#FFB6C1;
 .arti {
    min-height: 500px;
    width:70%;
-   background-color: #FFB6C1;opacity:0.6;
+   background-color: #FFB6C1;opacity:0.8;
    float: right;
    padding: 20px;
    z-index:1;
@@ -179,7 +179,7 @@ background:#FFB6C1;
    color: red;
 }
 #sidebar {
-   background-color:#FFB6C1;opacity:0.6;
+   background-color:#FFB6C1;opacity:0.8;
     border-right: 5px solid #000000;
    color:#ffffff;
    width:30%;
@@ -227,7 +227,7 @@ div.desc1 {
 #sm {
    clear: both;
    padding: 20px;
-   background-color:#FFB6C1;opacity:0.6;
+   background-color:#FFB6C1;opacity:0.8;
    margin: 0 auto;
    border-top:5px solid #000000;
 }
