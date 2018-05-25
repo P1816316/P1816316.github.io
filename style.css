@@ -416,6 +416,7 @@ header .nav{
 
 
 /* feedback page */
+
 #article{
 	position:relative;
 	margin-left:350px;
@@ -463,8 +464,9 @@ img {
 }
 #words{
 	text-align:center;
+	font-family: 'Arima Madurai', cursive;
 	word-spacing: 3px;
-	font-size: 30px;
+	font-size: 50px;
     margin:0 auto;
 	padding:20px;
 	text-shadow: 0 0 3px #FF0000;
@@ -474,7 +476,7 @@ img {
 	position: relative; 
     width: 1000px;
 	position: relative;
-	margin-left:100px;
+	margin-left:150px;
 }
 .mySlides {
   display: none;
@@ -580,7 +582,12 @@ div.desc {
 
 }
 /* offers page */
-
+.package{
+	text-align:center;
+	font-size:50px;
+	font-family: 'Arima Madurai', cursive;
+	text-shadow: 0 0 3px #FF0000;
+}
 #offer{
 	width:1260px;
 	max-height: 500px;
@@ -646,6 +653,7 @@ div.desc {
 	font-size:20px;
 	color:#2b3263;
 }
+
 #s-m {
    clear: both;
    margin: 0 auto;
@@ -670,7 +678,6 @@ div.desc {
    float: right;
    padding: 20px;
    font-size: 20px;
-   font-style:italic;
    padding-right:170px;
    font-family:Arial;
 }
@@ -684,7 +691,7 @@ div.desc {
 	resize: none;
 	
 }
-#map{
+figure{
 	position:absolute;
 	margin-left: 580px;
 	margin-top:-730px;
