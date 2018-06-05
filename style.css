@@ -13,10 +13,10 @@ body{
 
 }
 .intro{
-   background: url("wcd.jpg") ;
+   background: url("wcd.jpg");
    background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;   
+   background-position: center;
+   background-repeat: no-repeat; 
    padding:0px;
    width: 1280px;
    height: 590px;
@@ -36,7 +36,6 @@ body{
 .content h1{
     font-family: 'Pacifico', cursive;
 	color: #DC143C;
-	text-shadow: 0px 0px 300px #000;
 	font-size: 110px;
 	margin:0 auto;
 	line-height:170px;
@@ -123,17 +122,16 @@ background:#FFB6C1;
 
 .header{
 	padding: 20px;
-    color: navy;
     height: 100%;
 	clear:both;
 	float:left;
 	text-align: center;
 	position:relative;
-	margin-left: 50px;
+
 }
 .header .navi{
     height: 100%;
-	width:100%;
+    width:100%;
     padding:10px;
     background: #ADD8E6;
 	margin: 0 auto;
@@ -147,9 +145,10 @@ background:#FFB6C1;
   float: left;
   display: inline;
   text-align: center;
-  padding: 16px 23px;
+  padding: 16px 22px;
+  border-radius:10px;
   text-decoration: none;
-  font-size: 17px;
+
 }
 .navi a{
     color:#000000;
@@ -162,6 +161,7 @@ background:#FFB6C1;
 }
 .navi li:hover{
     background-color: #f39d1a;
+	border-radius:10px;
 	transition: all 0.4s;
 }
 
@@ -174,6 +174,7 @@ background:#FFB6C1;
    z-index:1;
 }
 .photo{
+
 	width:100%;
 	height:30%;
 }
@@ -332,6 +333,8 @@ header .nav{
   display: inline;
   text-align: center;
   padding: 16px 23px;
+    padding: 16px 20px;
+	border-radius:10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -725,4 +728,22 @@ div.desc {
 	font-size:100px;
 	font-family:elephant;
 	color:#5481c9;
+}
+/* media screen*/  
+@media screen and (max-width:450px){
+/* start page*/
+   body{
+	   max-width:450px;
+   }   
+   .intro{
+   max-width: 450px;  
+}
+.content h1{
+	font-size:60px;
+	line-height:150px;
+	margin-left:-20px;
+}
+   #search{
+	   display:none;
+   }
 }
