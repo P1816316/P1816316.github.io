@@ -773,6 +773,14 @@ div.desc {
 	   display:none;
    }
 /* home page*/
+ .body{
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+   max-width:450px;
+ }
+
+   
    label{
 	   width:40px;
 	   height:60px;
