@@ -772,12 +772,15 @@ div.desc {
    #search{
 	   display:none;
    }
+   #insta{
+	   margin-right:50px;
+   }
 /* home page*/
  .body{
-	 background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-   max-width:450px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;  
+    max-width:450px;
  }
 
    
