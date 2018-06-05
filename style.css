@@ -110,6 +110,7 @@ background:#FFB6C1;
    margin: 0 auto;
  }
 #logo{
+	width:100%;
 	height:250px;
 	opacity: 0.6;
 }
@@ -118,6 +119,7 @@ background:#FFB6C1;
    min-height:100%;
    border: 0;
    margin: 0 auto;
+
 }
 
 .header{
@@ -128,6 +130,20 @@ background:#FFB6C1;
 	text-align: center;
 	position:relative;
 
+}
+label{
+	margin: 0 40px 0 0;
+	font-size:40px;
+	line-height:70px;
+	margin:0 ;
+	position:absolute;
+	margin-top:-60px;
+	border:1px solid #000000;
+	background-color:#ADD8E6;opacity:0.6;
+	display:none;
+}
+#toggle{
+	display:none;
 }
 .header .navi{
     height: 100%;
@@ -141,30 +157,37 @@ background:#FFB6C1;
     opacity: 0.8;
 	filter: alpha (opacity=80); 
 }
-.navi li{
+.navi ul{
+	list-style-type:none;
+}
+.navi ul li{
   float: left;
-  display: inline;
+  display: inline-block;
   text-align: center;
   padding: 16px 22px;
   border-radius:10px;
   text-decoration: none;
 
 }
-.navi a{
+.navi ul li a{
     color:#000000;
 	font-weight:bold;
-	font-size: 16px;
+	font-size: 17px;
 	text-decoration:none;
 	padding: 14px 16px;
+	line-height:10px;
 
 
 }
-.navi li:hover{
+.navi ul li a:hover{
     background-color: #f39d1a;
 	border-radius:10px;
 	transition: all 0.4s;
 }
-
+.current{
+	background-color: #f39d1a;
+	border-radius:10px;
+}
 .information {
    min-height: 500px;
    width:70%;
@@ -172,6 +195,9 @@ background:#FFB6C1;
    float: right;
    padding: 20px;
    z-index:1;
+}
+.learn{
+	color:red;
 }
 .photo{
 
@@ -738,7 +764,7 @@ div.desc {
    .intro{
    max-width: 450px;  
 }
-.content h1{
+   .content h1{
 	font-size:60px;
 	line-height:150px;
 	margin-left:-20px;
@@ -746,4 +772,44 @@ div.desc {
    #search{
 	   display:none;
    }
+/* home page*/
+   label{
+	   width:40px;
+	   height:60px;
+	   display:block;
+	   cursor:pointer;
+   }
+   .navi{
+	   text-align:center;
+	   width:100%;
+	   display:none;
+   }
+   #toggle:checked + .navi{
+	   display:block;
+   }
+   .information{
+	   display:block;
+	   width:100%;
+	   border:0px;
+	   border-bottom:5px solid #000000;
+   }
+   .learn{
+	   display:block;
+   }
+   .photogallery{
+	   position:relative;
+	   left:-75px;
+	   
+   }
+   #sidebar{
+	   width:100%;
+	   height:50%;
+	   border:0px;
+	   text-align: center;
+   }
+   #mediaicon{
+       width:65px;
+	   height:65px;
+	  
+}  
 }

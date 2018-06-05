@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <title>PHOTOSHOOT/Home</title>
 
 <link rel="icon" type="image/jpg" href="logo.jpg" />
@@ -10,28 +10,36 @@
    </head>
    <body class="body">
    <div class="main">
-   	  <a href="#">
-		     <img id="logo" src="3377.jpg" width="100%">
-			 </a>
+   	
       <div class="container1">
 		 
-         <div class="header">
-		    <span class="navi"> 		      
-		       <li><a href ="home1.html">Home</a></li>
+		
+         <div class="header">  
+		 <a href="#">
+		     <img id="logo" src="3377.jpg">
+			 </a>  
+			 <label for="toggle">&#9776;</label>
+			 <input type="checkbox" id="toggle"/>
+			 <span class="navi"> 	
+
+<ul>
+		       <li><a href ="home1.html" class="current">Home</a></li>
 		       <li><a href ="About Us.html">About Us</a></li>
 		       <li><a href ="photo gallary.html">Photo Gallary</a></li>
 		       <li><a href ="offers.html">Offers</a></li>
-		      <li><a href ="contact us.html">Contact Us</a></li>
+		       <li><a href ="contact us.html">Contact Us</a></li>
 			   <li><a href ="coming soon.html">Coming Soon</a></li>
+</ul>
+		   
 			</span>
-            
+          
          </div>
 		 
 
          <article class="information">
           <h1 class="companyinfo">Company's Information</h1>
             <p id="info">The photoshoot is a small business company which located in Singapore Orchard Road area, offering a full range of photo-taking services. We have several professional photographers here to cater to the needs of different customers. The company aims to provide customers with a satisfying photo-taking experience...
-			<a href="about us.html" style="color:red;">Learn More</p>
+			<a class="learn" href="about us.html">Learn More</a></p>
 		<div class="photogallery" >
 			<!-- image of a couple -->
 			<a target="_blank" href="237.jpg">
