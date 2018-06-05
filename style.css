@@ -337,7 +337,9 @@ header{
 	float:left;
 	margin: 0 auto;
 }
-
+#toggle1{
+	display:none;
+}
 header .nav{
     height: 100%;
 	width: 100%;
@@ -823,4 +825,55 @@ div.desc {
 	   height:65px;
 	  
 }  
+/*about us page*/
+.bodysection {
+	 max-width:450px;
+}
+#logo1{
+	max-width:450px;
+	display:block;
+}
+header{
+	background:none;
+	max-width:320px;
+
+}
+#toggle1{
+	position:absolute;
+	margin-top:100px;
+}
+#toggle1:checked + .nav{
+	   display:block;
+   }
+.nav{
+	display:none;
+}
+.nav li{
+	margin-right:30px;
+    padding-right:70px;
+}
+#feedback{
+	position:relative;
+	left:-750px;
+	bottom:-30px;
+}
+#aim{
+	clear:both;
+	float:left;
+	width:100%;
+	display:block;
+	border:0;
+	
+}
+.article{
+	width:100%;
+	border-bottom:5px solid #000000;
+}
+#img{
+	position:relative;
+	right: 80px;
+}
+#wedding{
+	max-width:450px;
+}
 }
