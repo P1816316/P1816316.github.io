@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title></title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 	  <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,51 +10,77 @@
    </head>
    <body class="bodysection">
       <div class="container">
-			  <a href="home1.html">
+	  <a href="#">
 		     <img id="logo1" src="3377.jpg" width="100%">
 			 </a>
          <header>
-		    <span class="nav"> 		       		 
-		       <li><a id="aboutus" href ="home1.html">Home</a></li>
-		       <li><a id="aboutus" href ="About Us.html">About Us</a></li>
-		       <li><a id="aboutus" href ="contact us.html">Contact Us</a></li>           
+		  <label for="toggle1">&#9776;</label>
+			 <input type="checkbox" id="toggle1"/>
+		    <span class="nav"> 
 
-         </header>
-		  </div>
+<ul>		       
+	
+		       <li><a href ="home1.html">Home</a></li>
+		       <li><a href ="About Us.html">About<i class="fa fa-angle-down"></i></a>
+			   <ul>
+					     <li><a href ="About Us.html">Staff</a></li>
+						 <li><a href ="feedback1.html">Feedback</a></li>
+					</ul></li>
+
+		       <li><a href ="photo gallary.html">Gallary</a></li>
+               <li><a href ="offers.html">Offers</a></li>
+		       <li><a href ="contact us.html">Contact</a></li>
+			    <li><a href ="coming soon.html">Coming</a></li>
+				
+</ul>
+               <form action="coming soon.html">
+			   <input id="textsearch" type="text" name="" placeholder="Search">
+			   </form>
+			</span>
+			</header>
+	 </div>
          <article id="article">
             <div class="wrapper">
-  <form action="coming soon.html">
+  <form method="POST" action="comingsoon.html">
     <h1 id="form">Feedback Form</h1>
-    <label for="fname" style="text-align:right;">First Name</label>
+    <div class="fname">First Name:</div>
 	<br  />
-    <input id="holder" type="text" id="fname" name="firstname" placeholder="Your name">
+    <input id="holder" type="text" placeholder="Your first name" name="fname"  required>
 <br  />
-    <label for="lname">Last Name</label>
+    <div class="lname">Last Name:</div>
 	<br  />
-    <input id="holder" type="text" id="lname" name="lastname" placeholder="Your last name">
+    <input id="holder" type="text" class="textInput" name="lastname" placeholder="Your last name" required>
+
 <br  />
-    <label for="number">Rate Our Service</label>
+    <div id="number">Rate Our Service</div>
 	<br  />
-    <select id="number" name="number" >
+
+    <select class="number" name="number" required>
       <option value="text">Very Satisfy</option>
       <option value="text">Satisfy</option>
       <option value="text">Average</option>
 	  <option value="text">Poor</option>
       <option value="text">Very Poor</option>
 	</select>
+
 <br  />
-    <label for="subject">Comment</label>
+    <div id="subject">Comment:</div>
 	<br  />
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;resize: none;"></textarea>
+
+    <textarea class="subject" name="subject" placeholder="Write something.." required></textarea>
+
     <br  />
-	<label for="photo">Upload Your Photo</label>
-	<input type="file" name="myfile"/>
+	<div class="photo">Upload Your Photo</div>
+	<input type="file" name="myfile" required>
 
 
   <br  />
-<button id="sub" type="button" onclick="alert('You Have Submit The Form Successfully!')">Submit</button>
+<input id="sub" type="submit">
 			  </form>
+			  </div>
          </article>
    <section class="go-top">&#128285;</section>
+   
+ 
    </body>
 </html>

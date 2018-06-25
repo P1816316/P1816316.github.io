@@ -1,7 +1,8 @@
  <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title></title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
 	  <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
       <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,29 +19,39 @@
 		 	<label for="toggle1">&#9776;</label>
 			 <input type="checkbox" id="toggle1"/>
 		    <span class="nav"> 
-
+<ul>
 		       <li><a href ="home1.html">Home</a></li>
-		       <li><a href ="About Us.html" class="current">About Us</a></li>
-		       <li><a href ="photo gallary.html">Photo Gallary</a></li>
+		       <li><a href ="About Us.html" class="current">About<i class="fa fa-angle-down"></i></a>
+			   
+			         <ul>
+					     <li><a href ="staff.html">Staff</a></li>
+						 <li><a href ="feedback1.html">Feedback</a></li>
+					</ul>
+			   </li>
+			      
+		       <li><a href ="photo gallary.html">Gallary</a></li>
 		       <li><a href ="offers.html">Offers</a></li>
 		       
-		       <li><a href ="contact us.html">Contact Us</a></li>
-               <li><a href ="coming soon.html">Coming Soon</a></li>
+		       <li><a href ="contact us.html">Contact</a></li>
+               <li><a href ="coming soon.html" class="soon">Coming</a></li>
+</ul>
             <form action="coming soon.html">
 			   <input id="textsearch" type="text" name="" placeholder="Search">
 			   </form>
 			   </span>
          </header>
 		  </div>
+		  <form action="coming soon.html">
+			   <input id="textid" type="text" name="search" placeholder="Search">
+			   </form>
+			   
 		 <section id="wedding">
 		 
 		
 
          <article class="article">
             <h1 class="info">Company Information</h1>
-            <p>The photoshoot is a small business company which located in Singapore Orchard Road area, offering a full range of photo-taking services. We have several professional photographers here to cater to the needs of different customers. The company aims to provide customers with a satisfying photo-taking experience.
-           
-		   <br    /><a id="feedback" href="feedback1.html" target="_blank" >❤Please Leave Your Feedbacks Here❤</a></p>
+            <p>The photoshoot is a small business company which located in Singapore Orchard Road area, offering a full range of photo-taking services. We have several professional photographers here to cater to the needs of different customers. The company aims to provide customers with a satisfying photo-taking experience.</p>
 			 <a href="photo gallary.html">
              <img id="img" alt="photo" src="3721.jpg">
 			</a>
@@ -74,8 +85,25 @@
 		 </section>
 		 
 		 
-		 <section class="go-top">&#128285;</section>
+	<a onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></a>
       </div>
-	  
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>	  
    </body>
 </html>

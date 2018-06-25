@@ -1,68 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title></title>
-	  <meta charset="utf-8">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<link rel="stylesheet" type="text/css" href="style.css">
-    <title>PHOTOSHOOT/Contact Us</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+	      <title>PHOTOSHOOT/About Us</title>
 
 <link rel="icon" type="image/jpg" href="logo.jpg" />
    </head>
    <body class="bodysection">
       <div class="container">
-		 	    	  <a href="coming soon.html">
+		 	  <a href="#">
 		     <img id="logo1" src="3377.jpg" width="100%">
 			 </a>
          <header>
+		 	<label for="toggle1">&#9776;</label>
+			 <input type="checkbox" id="toggle1"/>
 		    <span class="nav"> 
+<ul>
 		       <li><a href ="home1.html">Home</a></li>
-		       <li><a href ="About Us.html">About Us</a></li>
-		       <li><a href ="photo gallary.html">Photo Gallary</a></li>
+		       <li><a href ="About Us.html">About<i class="fa fa-angle-down"></i></a>
+			   
+			         <ul>
+					     <li><a href ="staff.html">Staff</a></li>
+						 <li><a href ="feedback1.html">Feedback</a></li>
+					</ul>
+			   </li>
+			      
+		       <li><a href ="photo gallary.html">Gallary</a></li>
 		       <li><a href ="offers.html">Offers</a></li>
 		       
-		       <li><a href ="contact us.html">Contact Us</a></li>
-			   <li><a href ="coming soon.html">Coming Soon</a></li>
-               <form action="coming soon.html">
+		       <li><a href ="contact us.html" class="current">Contact</a></li>
+               <li><a href ="coming soon.html" >Coming</a></li>
+</ul>
+            <form action="coming soon.html">
 			   <input id="textsearch" type="text" name="" placeholder="Search">
 			   </form>
-			</span>
-            
+			   </span>
          </header>
+		  </div>
+		  <form action="coming soon.html">
+			   <input id="textid" type="text" name="search" placeholder="Search">
+			   </form>
+	
 		
          <article id="col4">
-            <div class="wrapper">
-<form class="app" action="coming soon.html">
-<h2 style=""> Appointment Form</h2>
 
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" style="margin-bottom:20px;">
+<form class="app" action="coming soon.html">
+<h2> Appointment Form</h2>
+
+    <div class="col6">Name:</div>
+	
+    <input type="text" id="name" name="name" placeholder="Your Name" required >
 	<br>
-	<label for="email">Email:</label>
-    <input type="text" id="email" name="email" placeholder="Your Email address"style="margin-bottom:20px;">
+	<div class="col6">Email:</div>
+    <input type="text" id="email" name="email" placeholder="Your Email address" required>
 	<br/>
-	<label for="handphone">Phone:</label>
-    <input type="text" id="handphone" name="handphone" placeholder="Your phone number">
+	<div class="col6">Phone:</div>
+    <input type="text" id="handphone" name="handphone" placeholder="Your phone number" required>
 	<br>
 	<div class="col5">What is the best way to reach you:</div>
-	Phone <input type="radio" name="sex" value="phone" />
+	Phone <input type="radio" name="sex" value="phone" required>
 	<br>
-	Email <input type="radio" name="sex" value="email" />
+	Email <input type="radio" name="sex" value="email" required>
 	<br>
 	
 	<div class="col5">Days of the week you are available for appointment:</div>
-	Monday <input type="checkbox" name="time" value="mon" />
+	Monday <input type="checkbox" name="time" value="mon" required>
 	<br>
-	Tuesday<input type="checkbox" name="time" value="tue" />
+	Tuesday<input type="checkbox" name="time" value="tue" required>
 	<br>
-	Wednesday<input type="checkbox" name="time" value="wed" />
+	Wednesday<input type="checkbox" name="time" value="wed" required>
 	<br>
-	Thursday<input type="checkbox" name="time" value="thu" />
+	Thursday<input type="checkbox" name="time" value="thu" required>
 	<br>
-	Friday<input type="checkbox" name="time" value="fri" />
+	Friday<input type="checkbox" name="time" value="fri" required>
 	<br>
 	<div class="col5">Best time of day for your appointment:</div>
-	<select name="time">
+	<select name="time" required>
         <option value="10am">9am-10am</option>
 		<option value="11am">11am-12pm</option>
 		<option value="12pm">1pm-2pm</option>
@@ -74,15 +90,15 @@
 
   <div class="col5">Special Requirements</div>
 
-    <textarea id="subject1" name="subject" placeholder="Write something.."></textarea>
+    <textarea id="subject1" name="subject" placeholder="Write something.."required></textarea>
 
-    <input id="sbmit" type="submit" value="Submit" onclick="alert('You Have Submit The Form Successfully!')">
+    <input id="sbmit" type="submit" value="Submit">
 
 </form>
          </article>
 		 <!-- address: right -->
-		 <aside id="address">
-<h1>Address</h1>
+		 <div class="address">
+<h1><i class="fa fa-address-book"></i>  Address</h1>
 		 <address>
 Wedding photoshoot
 <br>
@@ -112,19 +128,19 @@ URL: https://p1816316.neocities.org/
 <br>
   
 
-  <h1> Location of the store:</h1>
-  <img src="map.jpg" alt="map" width="550px" height="350px">
+  <h1> Location of the store <i class="fa fa-map-marker"></i>  :</h1>
+  <img class="map" src="map.jpg" alt="map">
 
-</address>
-		 </aside>
+</div>
+	
 		     <footer id="s-m">
 		 <h1 id="socialmedia">Do follow us on our social media</h1>
     <div class="media">
-<a href="https://www.facebook.com/"><img id="mediaicon" alt="icon" src="facebook.png"></a>
-<a href="https://plus.google.com/"><img id="mediaicon" alt="icon" src="google.png"></a>
-<a href="https://www.instagram.com/"><img id="mediaicon" alt="icon" src="instagram.png"></a>
-<a href="https://www.linkedin.com/"><img id="mediaicon" alt="icon" src="linkedin.png"></a>
-<a href="https://twitter.com/"><img id="mediaicon" alt="icon" src="twitter.png"></a>
+<a href="https://www.facebook.com/" target="_blank"><img id="mediaicon" alt="icon" src="facebook.png"></a>
+<a href="https://plus.google.com/" target="_blank"><img id="mediaicon" alt="icon" src="google.png"></a>
+<a href="https://www.instagram.com/" target="_blank"><img id="mediaicon" alt="icon" src="instagram.png"></a>
+<a href="https://www.linkedin.com/" target="_blank"><img id="mediaicon" alt="icon" src="linkedin.png"></a>
+<a href="https://twitter.com/" target="_blank"><img id="mediaicon" alt="icon" src="twitter.png"></a>
 
 			 </div>
 <h5 class="copyright">&#169;2018 Photoshoot, All photograph rights reserved by Pexels.</h5>
