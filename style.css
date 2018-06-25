@@ -752,7 +752,9 @@ img {
 .demo:hover {
   opacity: 1;
 }
-
+.demo-cursor{
+	width:100%;
+}
 #socialmed {
    clear: both;
    margin: 0 auto;
@@ -879,6 +881,15 @@ img {
 .map{
 	width:130%;
     height:300px;
+}
+figcaption{
+	width:100%;
+	position:relative;
+	top:-50px;
+	left:50px;
+	text-align:center;
+	color:#5da8f4;
+	background:#434444;opacity:0.6;
 }
 #subject1{
 	height:150px;
