@@ -228,7 +228,7 @@ background:#FFB6C1;
    float:left;
    padding: 20px;
    font-size: 16px;
-   height:510px;
+   height:500px;
 
 }
 #sidebar ul li a{
@@ -859,14 +859,14 @@ img {
    width:50%;
    height:100%;
    float: left;
-   padding-left: 50px;
+   padding-left: 70px;
    font-size: 20px;
    padding-right:170px;
    font-family:Arial;
-  
+   line-height:30px;
 }
 .address h1{
-	font-size:35px;
+	font-size:32px;
 }
 .col6{
 	display: inline;
