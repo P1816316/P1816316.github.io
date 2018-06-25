@@ -198,6 +198,9 @@ background:#FFB6C1;
 .learn{
 	color:#f44242;
 }
+.learn:visited{
+	color:#5da8f4;
+}
 .photo{
 
 	width:100%;
