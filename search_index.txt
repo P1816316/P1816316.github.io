@@ -1,0 +1,11 @@
+contact us.html
+About Us.html
+index.html
+search.html
+feedback.html
+home1.html
+offers.html
+photo gallery.html
+review.html
+sign up.html
+staff.html

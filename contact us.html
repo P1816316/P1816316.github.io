@@ -1,104 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-      <link rel="stylesheet" type="text/css" href="style.css">
-	      <title>PHOTOSHOOT/About Us</title>
 
-<link rel="icon" type="image/jpg" href="logo.jpg" />
-   </head>
-   <body class="bodysection">
-      <div class="container">
-		 	  <a href="#">
-		     <img id="logo1" src="3377.jpg" width="100%">
-			 </a>
-         <header>
-		 	
-		    <span class="nav"> 
-<ul>
-		       <li><a href ="home1.html">Home</a></li>
-		       <li><a href ="About Us.html">About<i class="fa fa-angle-down"></i></a>
-			   
-			         <ul>
-					     <li><a href ="staff.html">Staff</a></li>
-						 <li><a href ="feedback1.html">Feedback</a></li>
-					</ul>
-			   </li>
-			      
-		       <li><a href ="photo gallary.html">Gallary</a></li>
-		       <li><a href ="offers.html">Offers</a></li>
-		       
-		       <li><a href ="contact us.html" class="current">Contact</a></li>
-               <li><a href ="coming soon.html" >Coming</a></li>
-</ul>
-            <form action="coming soon.html">
-			   <input id="textsearch" type="text" name="" placeholder="Search">
-			   </form>
-			   </span>
-         </header>
-		  </div>
-		  <form action="coming soon.html">
-			   <input id="textid" type="text" name="search" placeholder="Search">
-			   </form>
-	
-		
-         <article id="col4">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media screen.css">
+    <!-- script -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/app-form.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>PHOTOSHOOT/Contact Us</title>
 
-<form class="app" action="coming soon.html">
-<h2> Appointment Form</h2>
+    <link rel="icon" type="image/png" href="images/3377.png" />
 
-    <div class="col6">Name:</div>
-	
-    <input type="text" id="name" name="name" placeholder="Your Name" required >
-	<br>
-	<div class="col6">Email:</div>
-    <input type="text" id="email" name="email" placeholder="Your Email address" required>
-	<br/>
-	<div class="col6">Phone:</div>
-    <input type="text" id="handphone" name="handphone" placeholder="Your phone number" required>
-	<br>
-	<div class="col5">What is the best way to reach you:</div>
-	Phone <input type="radio" name="sex" value="phone" required>
-	<br>
-	Email <input type="radio" name="sex" value="email" required>
-	<br>
-	
-	<div class="col5">Days of the week you are available for appointment:</div>
-	Monday <input type="checkbox" name="time" value="mon" required>
-	<br>
-	Tuesday<input type="checkbox" name="time" value="tue" required>
-	<br>
-	Wednesday<input type="checkbox" name="time" value="wed" required>
-	<br>
-	Thursday<input type="checkbox" name="time" value="thu" required>
-	<br>
-	Friday<input type="checkbox" name="time" value="fri" required>
-	<br>
-	<div class="col5">Best time of day for your appointment:</div>
-	<select name="time" required>
-        <option value="10am">9am-10am</option>
-		<option value="11am">11am-12pm</option>
-		<option value="12pm">1pm-2pm</option>
-		<option value="2pm">3pm-4pm</option>
-		<option value="4pm">5pm-6pm</option>
-		<option value="6pm">8pm-9pm</option>
-	</select>	
-	<br>
+</head>
 
-  <div class="col5">Special Requirements</div>
+<body class="body">
 
-    <textarea id="subject1" name="subject" placeholder="Write something.."required></textarea>
+    <div class="main">
 
-    <input id="sbmit" type="submit" value="Submit">
+        <div class="container1">
+            <a href="home1.html">
+                <div class="logo">
+                    <img src="images/3377.png" alt="logo">
+                </div>
+            </a>
 
-</form>
-         </article>
-		 <!-- address: right -->
-		 <div class="address">
-<h1><i class="fa fa-address-book"></i>  Address</h1>
-		 <address>
+            <div class="header">
+
+                <nav class="navi">
+                    <div class="navigation-menu-button">
+                        <div class="menu">&#9776;</div>
+                    </div>
+                    <ul>
+                        <li><a href="home1.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                        <li><a href="About Us.html"><span class="glyphicon glyphicon-picture"></span>  About Us<i class="fa fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="staff.html"><span class="glyphicon glyphicon-user"></span>Staff</a></li>
+                                <li><a href="feedback.html"><span class="glyphicon glyphicon-comment"></span>Feedback</a></li>
+                                <li><a href="review.html"><span class="glyphicon glyphicon-align-left"></span>Review</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="photo gallery.html"><span class="glyphicon glyphicon-camera"></span>Photo  Gallery</a></li>
+                        <li><a href="offers.html"><span class="glyphicon glyphicon-gift"></span>  Offers</a></li>
+                        <li><a href="contact us.html" class="current"><span class="glyphicon glyphicon-earphone"></span>  Contact Us</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="boxbox">
+                <br>
+<!--JS-SEARCH-CONTENT-BEGIN-->
+                <div class="app-box">
+                    <p>Please click below to make an appointment to discuss with us for your package!</p>
+                    <button onclick="Functiontell()">
+                        Appointment Form</button>
+
+                    <div id="modal-wrapper" class="modal">
+
+                        <form class="modal-content animate" method="post" action="#" name="contactForm" onsubmit="return false">
+                            <div class="imgcontainer">
+                                <span onclick="myFunction()" class="close" title="close PopUp">&times;</span>
+
+                                <h1>Appointment Form</h1>
+                            </div>
+                            <div class="container">
+
+                                <div class="form">Name:</div>
+
+                                <input type="text" id="name" name="name" placeholder="First and last name">
+
+                                <div class="form">Email:</div>
+                                <input type="text" id="email" name="email" placeholder="address@example.com">
+                                <div class="form">Phone:</div>
+                                <input type="text" id="handphone" name="handphone" placeholder="92345678">
+                                <div class="form">What is the best way to reach you:</div>
+                                <ul>
+                                    <li>Phone
+                                        <input type="radio" name="communicate" value="phone">
+                                    </li>
+
+                                    <li>Email
+                                        <input type="radio" name="communicate" value="email">
+                                    </li>
+                                </ul>
+
+                                <div class="form">Days of the week you are available:</div>
+                                <ul>
+                                    <li>Monday
+                                        <input type="checkbox" name="time" value="mon">
+                                    </li>
+
+                                    <li>Tuesday
+                                        <input type="checkbox" name="time" value="tue">
+                                    </li>
+
+                                    <li>Wednesday
+                                        <input type="checkbox" name="time" value="wed">
+                                    </li>
+
+                                    <li>Thursday
+                                        <input type="checkbox" name="time" value="thu">
+                                    </li>
+
+                                    <li>Friday
+                                        <input type="checkbox" name="time" value="fri">
+                                    </li>
+                                </ul>
+
+                                <div class="form">Best time of day for your appointment:</div>
+                                <select class="time" name="time">
+								    <option value="default"></option>
+                                    <option value="">9am-10am</option>
+                                    <option value="">11am-12pm</option>
+                                    <option value="">1pm-2pm</option>
+                                    <option value="">3pm-4pm</option>
+                                    <option value="">5pm-6pm</option>
+                                    <option value="">8pm-9pm</option>
+                                </select>
+
+                                <div class="form">Special Requirements:</div>
+
+                                <textarea id="subject1" name="message" placeholder="Write something.."></textarea>
+
+                                <input id="sbmit" type="submit" value="Submit">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="address">
+                    <h1><i class="fa fa-address-book"></i>  Address</h1>
+                    <address>
 Wedding photoshoot
 <br>
 
@@ -125,29 +168,41 @@ Email:3721@photoshoot.com.sg
 
 URL: https://p1816316.neocities.org/
 <br>
-  
+</address>
 
-  <h1> Location of the store <i class="fa fa-map-marker"></i>  :</h1>
-  <figure>
-  <img class="map" src="map.jpg" alt="map">
-  <figcaption>photoshoot located</figcaption>
-  </figure>
-</div>
-	
-		     <footer id="s-m">
-		 <h1 id="socialmedia">Do follow us on our social media</h1>
-    <div class="media">
-<a href="https://www.facebook.com/" target="_blank"><img id="mediaicon" alt="icon" src="facebook.png"></a>
-<a href="https://plus.google.com/" target="_blank"><img id="mediaicon" alt="icon" src="google.png"></a>
-<a href="https://www.instagram.com/" target="_blank"><img id="mediaicon" alt="icon" src="instagram.png"></a>
-<a href="https://www.linkedin.com/" target="_blank"><img id="mediaicon" alt="icon" src="linkedin.png"></a>
-<a href="https://twitter.com/" target="_blank"><img id="mediaicon" alt="icon" src="twitter.png"></a>
+                    <h1> Location of the store <i class="fa fa-map-marker"></i></h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7885332517976!2d103.83560841387063!3d1.3017995990505213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da199148e6febb%3A0x8e99f73f37fef4fa!2sOrchard+Rd!5e0!3m2!1sen!2ssg!4v1533281844349" allowfullscreen></iframe>
+                </div>
+<!--JS-SEARCH-CONTENT-END-->
+                <footer id="sm">
+                    <h1 class="socialmedia">Follow us on our social media</h1>
+                    <div class="media">
+                        <div class="footer-icon">
+                            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://plus.google.com/" target="_blank" class="fa fa-google-plus"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                        </div>
+                    </div>
+                    <h5 class="copyright">	&#169;2018 Photoshoot, All photograph rights reserved by Pexels.</h5>
+                </footer>
 
-			 </div>
-<h5 class="copyright">&#169;2018 Photoshoot, All photograph rights reserved by Pexels.</h5>
-         </footer>
-	
+                <a id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></a>
 
-</div>
-   </body>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
 </html>

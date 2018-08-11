@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media screen.css">
+    <!-- script -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/rating.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>PHOTOSHOOT/Feedback</title>
+    <link rel="icon" type="image/jpg" href="images/3377.png" />
+
+</head>
+
+<body class="body">
+    <div id="dialog-contact-form" title="feedback">
+        <div class="message">Thank you for your feedback!</div>
+    </div>
+
+    <div class="main">
+
+        <div class="container1">
+            <a href="home1.html">
+                <div class="logo">
+                    <img src="images/3377.png" alt="logo">
+                </div>
+            </a>
+
+            <div class="header">
+
+                <nav class="navi">
+                    <div class="navigation-menu-button">
+                        <div class="menu">&#9776;</div>
+                    </div>
+
+                    <ul>
+                        <li><a href="home1.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                        <li><a href="About Us.html"><span class="glyphicon glyphicon-picture"></span>  About Us<i class="fa fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="staff.html"><span class="glyphicon glyphicon-user"></span>Staff</a></li>
+                                <li><a href="feedback.html" class="current"><span class="glyphicon glyphicon-comment"></span>Feedback</a></li>
+                                <li><a href="review.html"><span class="glyphicon glyphicon-align-left"></span>Review</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="photo gallery.html"><span class="glyphicon glyphicon-camera"></span>Photo  Gallery</a></li>
+                        <li><a href="offers.html"><span class="glyphicon glyphicon-gift"></span>  Offers</a></li>
+                        <li><a href="contact us.html"><span class="glyphicon glyphicon-earphone"></span>  Contact Us</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="boxbox">
+<!--JS-SEARCH-CONTENT-BEGIN-->			
+                <article id="article">
+                    <div class="wrapper">
+                        <p id="form">Feedback Form</p>
+                        <form name="myForm" method="post" action="#" onsubmit="return false">
+
+                            <div class="fname">First Name:
+                                <br />
+                                <input class="holder-1" type="text" placeholder="Your first name" name="firstname" id="fname">
+
+                                <br />
+                            </div>
+                            <div class="lname">Last Name:
+                                <br />
+                                <input class="holder-1" type="text" name="lastname" placeholder="Your last name">
+                            </div>
+                            <br />
+                            <div class="photo">Upload Your Photo
+                                <input type="file" name="myfile">
+                            </div>
+                            <br />
+                            <div id="number">Rate Our Service
+                                <br />
+
+                                <div class='rating-stars text-center'>
+                                    <ul id='stars'>
+                                        <li class='star' title='Poor' data-value='1'>
+                                            <i class='fa fa-star fa-fw'></i>
+                                        </li>
+                                        <li class='star' title='Average' data-value='2'>
+                                            <i class='fa fa-star fa-fw'></i>
+                                        </li>
+                                        <li class='star' title='Good' data-value='3'>
+                                            <i class='fa fa-star fa-fw'></i>
+                                        </li>
+                                        <li class='star' title='Excellent' data-value='4'>
+                                            <i class='fa fa-star fa-fw'></i>
+                                        </li>
+                                        <li class='star' title='Amazing' data-value='5'>
+                                            <i class='fa fa-star fa-fw'></i>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <br />
+                            <div id="subject">Comment:
+                                <br />
+
+                                <textarea class="subject" name="messages" id="message" placeholder="Write something.."></textarea>
+                            </div>
+                            <br />
+
+                            <br />
+                            <input id="sub" type="submit">
+                        </form>
+
+                    </div>
+                </article>
+<!--JS-SEARCH-CONTENT-END-->
+                <footer id="sm">
+                    <h1 class="socialmedia">Follow us on our social media</h1>
+                    <div class="media">
+                        <div class="footer-icon">
+                            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://plus.google.com/" target="_blank" class="fa fa-google-plus"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                        </div>
+                    </div>
+                    <h5 class="copyright">	&#169;2018 Photoshoot, All photograph rights reserved by Pexels.</h5>
+                </footer>
+
+                <a id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></a>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

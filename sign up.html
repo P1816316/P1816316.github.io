@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-US">
+<!-- css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/media screen.css">
+<link rel="stylesheet" type="text/css" href="css/sign up.css">
+<!-- script -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/sign up.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>PHOTOSHOOT/SIGN UP</title>
+
+    <link rel="icon" type="image/jpg" href="images/3377.png" />
+
+</head>
+
+<body>
+
+    <a href="home1.html">
+        <div class="logo">
+            <img src="images/3377.png" alt="logo">
+        </div>
+    </a>
+
+    <div id="container2">
+<!--JS-SEARCH-CONTENT-BEGIN-->	
+        <div id="content">
+            <h1>Sign Up Form</h1>
+
+            <form id="registerform" method="post" action="home1.html">
+                <div class="formrow">
+                    <label for="username">Username</label>
+                    <input data-progression="" type="text" name="username" id="username" class="basetxt" tabindex="1" data-helper="Any name with at least 6 characters.">
+                    <p class="errmsg">Please add some more characters</p>
+                </div>
+
+                <div class="formrow">
+                    <label for="email">Email Address</label>
+                    <input data-progression="" type="email" name="email" id="email1" class="basetxt" tabindex="2" data-helper="Where do we send your verification email?">
+                    <p class="errmsg">Please enter a proper e-mail</p>
+                </div>
+
+                <div class="formrow">
+                    <label for="password1">Password</label>
+                    <input data-progression="" type="password" name="password1" id="password1" class="basetxt" tabindex="3" data-helper="Make sure you can remember it!">
+                </div>
+
+                <div class="formrow">
+                    <label for="password2">Confirm Password</label>
+                    <input data-progression="" type="password" name="password2" id="password2" class="basetxt" tabindex="4" data-helper="Please re-enter the password again.">
+                    <p class="errmsg">Passwords do not match!</p>
+                </div>
+
+                <input type="submit" id="submitformbtn" class="submitbtn" value="Sign Up">
+            </form>
+        </div>
+    </div>
+<!--JS-SEARCH-CONTENT-END-->	
+
+</body>
+
+</html>

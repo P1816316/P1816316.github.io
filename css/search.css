@@ -1,0 +1,83 @@
+#js-search-container form input[type=text], #js-search-container form button{
+	box-sizing: border-box;
+}
+#js-search-container{
+	margin:0;
+	margin:20px;
+	margin-left:32%;
+	width:40%;
+}
+
+#js-search-container form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #036A81;
+    float: left;
+    width: 70%;
+    opacity:0.7;
+	background-color:#ffffff;
+}
+.ui-dialog .ui-dialog-title{
+	color:#DC143C;
+	font-size:16px;
+}
+.ui-dialog .ui-dialog-titlebar{
+	background-color:#037A81;
+	opacity:0.8;
+}
+
+#js-search-container form button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background-color: #037A81;
+    font-size: 17px;
+    border: 1px solid #037A81;
+    border-left: none;
+    cursor: pointer;
+	border-radius:0;
+	margin:0;
+}
+
+.js-search-now .fa{
+	color:#DC143C;
+}
+#js-search-container  form button:hover {
+    background: #037A81;
+}
+#js-search-container form button:hover{
+	background-color:#037A81;
+}
+
+#js-search-container form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#dialog-js-search {
+	max-width: 800px;
+}
+
+
+#dialog-js-search div.loading{
+	min-width: 400px;
+	min-height: 200px;
+	background-image: url('../images/loading.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dialog-js-search div.message{
+    overflow:auto;
+	max-width: 400px;
+	max-height: 200px;	
+}
+
+#dialog-js-search .js-search-found-text{
+	background-color:#DC143C;
+}
+
+#dialog-js-search div.message div.js-search-result-block{
+	margin-bottom: 10px;
+}

@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 
-<title>PHOTOSHOOT</title>
-<link rel="icon" type="image/jpg" href="logo.jpg" />
-<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media screen.css">
+    <!--  script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/search.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <title>PHOTOSHOOT</title>
+    <link rel="icon" type="image/jpg" href="images/3377.png" />
 
 </head>
+
 <body>
+<div id="dialog-js-search" title="Search Results">
+  <div class="loading"></div>  
+  <div class="message"></div>  
+</div>
+
     <section class="intro">
+        <a href="sign up.html">
+            <button class="sign-up">Sign Up Form</button>
+        </a>
+        <div class="insta">
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+
         <div class="inner">
+            <div id="js-search-container">
+                <form class="search-form" action="#" onsubmit="return false;">
+                    <input class="js-search-text" type="text" placeholder="Search.." name="search2">
+                    <button class="js-search-now" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
             <div class="content">
-			    <h1 class="keep">Keep Lifelong Memories</h1>
-				<a class="button" href="home1.html">Get Started</a>
-			</div>
+                <h1 class="keep">Keep Lifelong Memories</h1>
+                <br>
+                <a class="button" href="home1.html">Get Started</a>
+
+            </div>
 		</div>
     </section>
-	 <div id="search">
-    <form action="coming soon.html">
-      <input id="bar" type="text" class="searchterm" placeholder="What are you looking for?" name="search">
-      <button type="submit" class="searchbtn">Search</button>
-    	
-		</form>
 
-  </div>
-  <figure>
-  <a href="https://www.instagram.com/" target="_blank"><img id="insta" alt="icon" src="instagram.png"></a>
-  </figure>
 </body>
+
 </html>

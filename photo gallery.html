@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media screen.css">
+    <!-- script -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/photo gallery.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>PHOTOSHOOT/Photo Gallary</title>
+
+    <link rel="icon" type="image/jpg" href="images/3377.png" />
+
+</head>
+
+<body class="body">
+
+    <div class="container1">
+        <a href="home1.html">
+            <div class="logo">
+                <img src="images/3377.png" alt="logo">
+            </div>
+        </a>
+
+        <div class="header">
+
+            <nav class="navi">
+                <div class="navigation-menu-button">
+                    <div class="menu">&#9776;</div>
+                </div>
+
+                <ul>
+                    <li><a href="home1.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                    <li><a href="About Us.html"><span class="glyphicon glyphicon-picture"></span>  About Us<i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="staff.html"><span class="glyphicon glyphicon-user"></span>Staff</a></li>
+                            <li><a href="feedback.html"><span class="glyphicon glyphicon-comment"></span>Feedback</a></li>
+                            <li><a href="review.html"><span class="glyphicon glyphicon-align-left"></span>Review</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="photo gallery.html" class="current"><span class="glyphicon glyphicon-camera"></span>Photo  Gallery</a></li>
+                    <li><a href="offers.html"><span class="glyphicon glyphicon-gift"></span>  Offers</a></li>
+                    <li><a href="contact us.html"><span class="glyphicon glyphicon-earphone"></span>  Contact Us</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+        <div class="boxbox">
+<!--JS-SEARCH-CONTENT-BEGIN-->		
+            <article id="slide">
+
+                <h2 class="words">Slideshow Gallery</h2>
+
+                <div class="picbox">
+
+                    <div id="slideshow">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 14</div>
+                            <img class="pic" src="images/03.jpg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 14</div>
+                            <img class="pic" src="images/113.jpg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 14</div>
+                            <img class="pic" src="images/114.jpg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 14</div>
+                            <img class="pic" src="images/115.jpg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 14</div>
+                            <img class="pic" src="images/116.jpg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 14</div>
+                            <img class="pic" src="images/117.jpg" alt="photos">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 14</div>
+                            <img class="pic" src="images/118.jpg" alt="photos">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">8 / 14</div>
+                            <img class="pic" src="images/119.jpg" alt="photos">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">9 / 14</div>
+                            <img class="pic" src="images/120.jpg" alt="photos">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">10 / 14</div>
+                            <img class="pic" src="images/121.jpg" alt="photos">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">11 / 14</div>
+                            <img class="pic" src="images/123.jpg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">12 / 14</div>
+                            <img class="pic" src="images/125.jpeg" alt="photos">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">13 / 14</div>
+                            <img class="pic" src="images/130.jpeg" alt="photos">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">14 / 14</div>
+                            <img class="pic" src="images/3721.jpg" alt="photos">
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                    <!-- small photo below -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="images/03.jpg" style="width:100%" onclick="currentSlide(1)" alt="Rhys	&#x2764; Lauren">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/113.jpg" style="width:100%" onclick="currentSlide(2)" alt="	&#x2764; Sophie	&#x2764; ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/114.jpg" style="width:100%" onclick="currentSlide(3)" alt="David  &#x2764; Michelle">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/115.jpg" style="width:100%" onclick="currentSlide(4)" alt="Tiffany  &#x2764; Joseph">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/116.jpg" style="width:100%" onclick="currentSlide(5)" alt="Ethan  &#x2764; Jessica">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/117.jpg" style="width:100%" onclick="currentSlide(6)" alt="William  &#x2764; Victoria">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/118.jpg" style="width:100%" onclick="currentSlide(7)" alt="Kyle  &#x2764; Elizabeth">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/119.jpg" style="width:100%" onclick="currentSlide(8)" alt="Jackson  &#x2764; Christina">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/120.jpg" style="width:100%" onclick="currentSlide(9)" alt="  &#x2764; Jasmin  &#x2764; ">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/121.jpg" style="width:100%" onclick="currentSlide(10)" alt="William  &#x2764; Victoria">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/123.jpg" style="width:100%" onclick="currentSlide(11)" alt="	&#x2764; Good Friends &#x2764;">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/125.jpeg" style="width:100%" onclick="currentSlide(12)" alt="Tiffany  &#x2764; Lynn  &#x2764; Sophie">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/130.jpeg" style="width:100%" onclick="currentSlide(13)" alt="Tiffany  &#x2764; Lynn  &#x2764; Sophie">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/3721.jpg" style="width:100%" onclick="currentSlide(14)" alt="Jacob ♥ Emily">
+                        </div>
+                    </div>
+
+                </div>
+                <br />
+
+            </article>
+            <!-- media screen display -->
+            <aside>
+                <h2 class="words">Image Gallary</h2>
+
+                <div class="photogal">
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/03.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Rhys ♥ Lauren</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/113.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2> ♥ Sophie ♥</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/114.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>David ♥ Michelle</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/115.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Joseph ♥ Tiffany</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/116.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Ethan ♥ Jessica</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/118.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Kyle ♥ Elizabeth</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/120.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Jasmin♥</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/123.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Good Friends♥ </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/125.jpeg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Tiffany ♥ Lynn ♥ Sophie</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/126.jpeg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>Tiffany ♥ Lynn ♥ Sophie</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/121.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>John ♥ Tiffany</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="boxflame">
+                        <figure>
+                            <img src="images/117.jpg" alt="photos">
+                        </figure>
+                        <div class="wordflame">
+                            <div class="wordcontent">
+                                <h2>William ♥ Victoria</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+<!--JS-SEARCH-CONTENT-END-->
+            <footer id="sm">
+                <h1 class="socialmedia">Follow us on our social media</h1>
+                <div class="media">
+                    <div class="footer-icon">
+                        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://plus.google.com/" target="_blank" class="fa fa-google-plus"></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+                <h5 class="copyright">	&#169;2018 Photoshoot, All photograph rights reserved by Pexels.</h5>
+            </footer>
+
+            <a id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
