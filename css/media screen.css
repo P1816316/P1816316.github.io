@@ -162,33 +162,33 @@ td p{
 #aim,.info{
 	border-right:0;
 	
-	}
-	#aim{
+}
+#aim{
 		border-bottom:5px solid #000000;
-	}
-	.info{
-		text-align:center;
-	}
-	/* feedback */
-	.wrapper form{
+}
+.info{
+	text-align:center;
+}
+/* feedback */
+.wrapper form{
+	margin:0 auto;
+	width:90%;
+}
+#form{
+	text-align:center;
+}
+.holder-1, .subject,.number{
+	width:70%;
+}
+#sub{
+	margin:0;
+	margin-bottom:10%;
+	margin-left:60%;
+}
+	/* staff */
+	div.card{
 		margin:0 auto;
-		width:90%;
 	}
-	#form{
-		text-align:center;
-	}
-	.holder-1, .subject,.number{
-		width:70%;
-	}
-	#sub{
-		margin:0;
-		margin-bottom:10%;
-		margin-left:60%;
-	}
-		/* staff */
-		div.card{
-			margin:0 auto;
-		}
 /* photo gallary */
 #slide{
 	display:none;
