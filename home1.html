@@ -3,12 +3,14 @@
 
 <head>
     <!-- css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media screen.css">
     <!-- script -->
     <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
@@ -39,17 +41,17 @@
                     </div>
 
                     <ul>
-                        <li><a href="home1.html" class="current"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-                        <li><a href="About Us.html"><span class="glyphicon glyphicon-picture"></span>  About Us<i class="fa fa-angle-down"></i></a>
+                        <li><a href="home1.html" class="current"><span class="fa fa-home"></span>  Home</a></li>
+                        <li><a href="About Us.html"><span class="fa fa-image"></span>  About Us<i class="fa fa-angle-down"></i></a>
                             <ul>
-                                <li><a href="staff.html"><span class="glyphicon glyphicon-user"></span>Staff</a></li>
-                                <li><a href="feedback.html"><span class="glyphicon glyphicon-comment"></span>Feedback</a></li>
-                                <li><a href="review.html"><span class="glyphicon glyphicon-align-left"></span>Review</a></li>
+                                <li><a href="staff.html"><span class="fa fa-group"></span>Staff</a></li>
+                                <li><a href="feedback.html"><span class="fa fa-comment"></span>Feedback</a></li>
+                                <li><a href="review.html"><span class="fa fa-pencil-square"></span>Review</a></li>
                             </ul>
                         </li>
-                        <li><a href="photo gallery.html"><span class="glyphicon glyphicon-camera"></span>Photo  Gallery</a></li>
-                        <li><a href="offers.html"><span class="glyphicon glyphicon-gift"></span>  Offers</a></li>
-                        <li><a href="contact us.html"><span class="glyphicon glyphicon-earphone"></span>  Contact Us</a></li>
+                        <li><a href="photo gallery.html"><span class="fa fa-camera"></span>Photo  Gallery</a></li>
+                        <li><a href="offers.html"><span class="fa fa-gift"></span>  Offers</a></li>
+                        <li><a href="contact us.html"><span class="	fa fa-phone-square"></span>  Contact Us</a></li>
 
                     </ul>
 
@@ -66,10 +68,11 @@
                             <a href="About Us.html">Learn More</a></p>
                         <div class="photogallery">
                             <!-- image of a couple -->
-                            <a href="photo gallery.html">
-                                <img class="picture-1" src="images/237.jpg" alt="wedding photo">
-
-                            </a>
+                          
+                               <a href="images/237.jpg" data-fancybox="myimage" data-caption="Click at the description box below the picture for more photographs!">
+		                       <img class="picture-1" src="images/237.jpg" width="200" alt="" />
+	                           </a>
+                            
 
                             <div class="photobox">
                                 <a href="photo gallery.html">Please Click Here For More Photographs!</a>

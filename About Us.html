@@ -3,13 +3,15 @@
 
 <head>
     <!-- css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="css/media screen.css">
     <!-- script -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/script.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <title>PHOTOSHOOT/About Us</title>
@@ -33,20 +35,20 @@
                 <div class="navigation-menu-button">
                     <div class="menu">&#9776;</div>
                 </div>
-                <ul>
-                    <li><a href="home1.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-                    <li><a href="About Us.html" class="current"><span class="glyphicon glyphicon-picture"></span>  About Us<i class="fa fa-angle-down"></i></a>
-                        <ul>
-                            <li><a href="staff.html"><span class="glyphicon glyphicon-user"></span>Staff</a></li>
-                            <li><a href="feedback.html"><span class="glyphicon glyphicon-comment"></span>Feedback</a></li>
-                            <li><a href="review.html"><span class="glyphicon glyphicon-align-left"></span>Review</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="photo gallery.html"><span class="glyphicon glyphicon-camera"></span>Photo  Gallery</a></li>
-                    <li><a href="offers.html"><span class="glyphicon glyphicon-gift"></span>  Offers</a></li>
-                    <li><a href="contact us.html"><span class="glyphicon glyphicon-earphone"></span>  Contact Us</a></li>
+                     <ul>
+                        <li><a href="home1.html"><span class="fa fa-home"></span>  Home</a></li>
+                        <li><a href="About Us.html" class="current"><span class="fa fa-image"></span>  About Us<i class="fa fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="staff.html"><span class="fa fa-group"></span>Staff</a></li>
+                                <li><a href="feedback.html"><span class="fa fa-comment"></span>Feedback</a></li>
+                                <li><a href="review.html"><span class="fa fa-pencil-square"></span>Review</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="photo gallery.html"><span class="fa fa-camera"></span>Photo  Gallery</a></li>
+                        <li><a href="offers.html"><span class="fa fa-gift"></span>  Offers</a></li>
+                        <li><a href="contact us.html"><span class="	fa fa-phone-square"></span>  Contact Us</a></li>
 
-                </ul>
+                    </ul>
 
             </nav>
 
@@ -63,9 +65,13 @@
 
                     <td id="aim">
                         <p>The photoshoot is a small business company which located in Singapore Orchard Road area, offering a full range of photo-taking services. We have several professional photographers here to cater to the needs of different customers. The company aims to provide customers with a satisfying photo-taking experience.</p>
-                        <a href="photo gallery.html">
-                            <img id="img" alt="photo" src="images/3721.jpg">
-                        </a>
+                        
+                            
+							<a href="images/staff.jpeg" data-fancybox="myimage" data-caption="This is our staff">
+		                       <img id="img" src="images/staff.jpeg" alt="staff" />
+	                           </a>
+                        
+						
                     </td>
                     <td>
                         <div class="media-screen">Our Aim</div>

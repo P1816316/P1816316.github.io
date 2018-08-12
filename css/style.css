@@ -22,6 +22,7 @@ body{
 .sign-up{
 	opacity:0.7;
 	background-color:#DC143C;
+	font-family:'Harrington';
 }
 .sign-up:hover{
 	opacity:1;
@@ -143,7 +144,7 @@ body{
 .navi ul li{
 	float: left; 
 	height: 50px;
-	width:20%;
+	width:19%;
 	background-color:rgba(255, 182, 193, 0.9);
 	text-align: center; 
 	line-height:100px;
@@ -191,26 +192,28 @@ body{
 }
 
 .information {
-   width:60%;
+   width:55%;
    float:left;
    padding: 20px;
    z-index:1;
+   text-decoration:none;
    font-family: 'Century Gothic';
 }
 .information p{
 	text-align:center;
 }
 .information h1{
+	margin:0 auto;
 	font-family:'Harrington';
 }
-.learn:hover{
-	color:#5da8f4;
+.information p a{
+	color:#f44e42;
+	text-decoration:none;
 }
-.learn:visited{
-	color:#5da8f4;
+.information p a:hover{
+	color: #037A81;
 }
 .photo{
-
 	width:100%;
 	height:50%;
 }
@@ -229,7 +232,7 @@ body{
    font-weight: bold;
    line-height:1;
    margin-right:-2px;
-   margin-top: -25px;
+   margin-top: -26px;
    float: left;
    width: 1em;
    color: red;
@@ -244,10 +247,9 @@ div #sidebar{
 }
 
 div.photogallery {
-    margin: 5px;
 	height:60%;
-    width: 60%;
-	margin-left: 20%;
+    width: 70%;
+	margin:0 auto;
 }
 div.photogallery :hover {
     border: 1px solid #777;
@@ -263,6 +265,7 @@ div.photobox {
     text-align: center;
 }
 div.photobox a{
+	color:#f44e42;
 	text-decoration:none;
 }
 div.photobox:hover{
@@ -305,6 +308,8 @@ div.photobox:hover{
 	text-align:center;
 	margin:0 auto;
 	padding-bottom:20px;
+	font-weight:500;
+	font-family:'century Gothic';
 }
 #myBtn{
 	display:none;
@@ -312,7 +317,7 @@ div.photobox:hover{
 	color:#fff;
 	width:45px;
 	height:45px;
-	font-size:30px;
+	font-size:35px;
 	text-align:center;
 	border-radius:50%;
     position:fixed;
@@ -337,9 +342,8 @@ th, td {
     padding-right:10px;	
 }
 .article {
-
    float: right;
-   padding: 20px;
+   padding: 0px;
 }
 .info{
 	font-size:38px;
@@ -349,7 +353,7 @@ th, td {
 	padding-top:20px;
 }
 #img{
-	width:100%;
+	width:95%;
 	height:auto;
 	border: 10px solid transparent;
 	border-radius:5%;
@@ -419,11 +423,19 @@ td p{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    
+    font-family:'Century Gothic';
+}
+.fname, .lname, .photo, #number, #subject{
+	font-size:18px;
+}
+.photo input{
+	display:block;
 }
 form div label{
 	display:block;
 	color:#ff0000;
+	font-size:14px;
+	font-family:'century Gothic';
 }
 .subject{
 	height:200px;
@@ -460,7 +472,7 @@ input:focus,textarea:focus,#number:focus,select:focus{
 }
 
 .rating-stars ul > li.star > i.fa {
-  font-size:2.5em; 
+  font-size:1.6em; 
   color:#ccc;
 }
 .rating-stars ul > li.star.hover > i.fa {
@@ -477,11 +489,11 @@ input:focus,textarea:focus,#number:focus,select:focus{
 }
 .our-team{
 	text-align:center;
-	font-size:50px;
 	text-shadow: 0 0 3px #FF0000;
 }
 .our-team h1{
 	padding-top:20px;
+	font-size:40px;
 	font-weight:bold;
 }
 .our-team p{
@@ -563,7 +575,7 @@ input:focus,textarea:focus,#number:focus,select:focus{
 	border-top:1px solid #FF0000;
 }
 .holder3 .share{
-	width:25%;
+	width:24.7%;
 	height:50px;
 	text-align:center;
 	float:left;
@@ -595,6 +607,7 @@ input:focus,textarea:focus,#number:focus,select:focus{
 .review-feedback{
 	margin-bottom:20px;
 	margin-left:30%;
+	font-family:'Harrington';
 }
 .review-box{
 	 width:90%;
@@ -623,7 +636,7 @@ hr{
 }
 .user-photo h4{
 	text-indent:10px;
-	padding:10px;
+	padding:3px;
 }
 .rating{
 	float:right;
@@ -638,6 +651,9 @@ hr{
 .rating span{
 	padding-left:5px;
 	font-size:1.6em;
+}
+.rating .h3{
+	font-family: 'Century Gothic';	
 }
 .checked {
     color: 	#FF4500;
@@ -843,6 +859,7 @@ aside{
 }
 .box button{
 	margin-left:90px;
+	font-family: 'Harrington';	
 }
 
 .message{
@@ -851,6 +868,7 @@ aside{
 	font-size:20px;
 	font-family: 'Century Gothic';	
 }
+
 button .show-cart, .checkout-cart{
 	display:inline;
 	font-family: 'Century Gothic';
@@ -920,6 +938,7 @@ button{
 	position:relative;
 	margin-left:10%;
 	margin-top:3%;
+	font-family:'Harrington';
 }
 button:hover{
     opacity:0.8;
@@ -936,6 +955,7 @@ button:hover{
 	left:0;
 	top:0;
 	width:100%;
+	height:100%;
 	overflow: auto;
 }
 .modal-content{
@@ -966,17 +986,20 @@ button:hover{
 div .container{
 	font-family: 'Century Gothic';	
 }
-.form{
-	padding:10px;
+div.form{
+	padding:15px;
 	font-size:16px;
 	font-weight:bold;
 	width:80%;
 }
 .container #name, #email, #handphone{
 	border:none;
-	width:200px;
+	width:250px;
 	border-radius:5px;
-	padding:5px;
+	padding:10px;
+}
+.container #name, #email, #handphone, .time, #subject1{
+	margin-left:15px;
 }
 .time{
     border:none;
@@ -985,7 +1008,7 @@ div .container{
 }
 .container #subject1{
 	height:150px;
-    width:30%;
+    width:60%;
 	resize: none;
     border:none;
 	border-radius:10px;

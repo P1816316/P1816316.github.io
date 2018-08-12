@@ -7,18 +7,21 @@
 	}
 	.navi ul li span{
 		font-size:20px;
-		margin-top:5px;
+		margin-top:-10px;
 	}
 	.navi ul li a:hover{
      height:50px;
 }
+    .current{
+		height:50px;
+	}
 	.navi ul li ul li span{
 		margin:0; 
 		padding:0;
 		display:block;
 	}
 .modal-content{
-	width:90%;
+	width:80%;
 }
 @media only screen and (max-width:480px){
 	/* sign up page*/
@@ -70,7 +73,7 @@
 	display:block;
 	overflow:auto;
 	cursor:pointer;
-	font-size:30px;
+	font-size:35px;
 	width:50px;
 	height:50px;
 	border:1px solid #000000;
@@ -114,11 +117,12 @@
 	   width:100%;
    }
    .information{
-	   width:100%;
+	   width:95%;
 	   display:block;
 	   border:0px;
 	   border-bottom:5px solid #000000;
 }
+
    .photogallery{
 	   position:relative;
 	   margin:0 auto;
@@ -134,7 +138,7 @@
 	  display:none;
   }
 td,th{
-	width:100%;
+	width:96%;
 	display:block;
 	
 }
@@ -158,10 +162,13 @@ td p{
 	/* feedback */
 	.wrapper form{
 		margin:0;
-		width:100%;
-	}
-		.holder-1, .subject,.number{
 		width:90%;
+	}
+	#form{
+		text-align:center;
+	}
+	.holder-1, .subject,.number{
+		width:70%;
 	}
 	#sub{
 		margin:0;
@@ -170,7 +177,7 @@ td p{
 	}
 		/* staff */
 		.card-holder{
-			margin-left:12%;
+			margin:0 auto;
 		}
 /* photo gallary */
 #slide{
@@ -220,10 +227,12 @@ figure img {
 .wordflame{
 	position:absolute;
 	text-align:center;
-	top:15px;
-	left:15px;
-	bottom:10px;
-	right:10px;
+	top:4%;
+	left:3.5%;
+	bottom:3%;
+	right:3%;
+	width:95%;
+	height:90%;
 	background:#f190f4;opacity:0.5;
     transform:scaleY(0);
 	transition:transform .5s;
@@ -234,21 +243,22 @@ figure img {
 	transform:scaleY(1);
 }
 .wordcontent{
-	position:absolute;
+	position:relative;
 	top:50%;
+	width:auto;
+	height:auto;
 	transform:translateY(-50%);
-	width:100%;
 	text-align:center;
 	border:1px solid white;
 	padding:15px;
 	color:#fff;
+	margin:0 auto;
 }
 .wordflame .wordcontent h2{
 	margin:0;
 	padding:0;
-	font-size:20px;
+	font-size:2em;
 	position:relative;
-	left:12px;
 	color:#2b3263;
     flex-wrap:wrap
 }
@@ -325,7 +335,8 @@ figure img {
 .book-content{
     background-color:#234372;
 	color:#ffffff;
-	font-size:12px;
+	font-size:0.8em;
+	line-height:1.5em;
 	text-align:center;
 	width:100%;
 	height:100%;
@@ -335,6 +346,7 @@ figure img {
 	box-sizing:border-box;
 	padding:20px;
 	z-index:-1;
+	font-family:'century Gothic';
 }
 .book-content img{
 	display:block;
@@ -348,11 +360,12 @@ figure img {
 	width:100%;
 }
 .close{
-	margin-top:-18px;
+	margin-top:-1px;
 }
 .container #name, #email, #handphone, #subject1{
 	width:50%;
 }
+
 
 iframe{
 	width:90%;
