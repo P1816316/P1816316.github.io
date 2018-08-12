@@ -147,7 +147,7 @@ body{
 .navi ul li{
 	float: left; 
 	height: 50px;
-	width:19%;
+	width:20%;
 	background-color:rgba(255, 182, 193, 0.9);
 	text-align: center; 
 	line-height:100px;
@@ -195,7 +195,7 @@ body{
 }
 
 .information {
-   width:55%;
+   width:60%;
    float:left;
    padding: 20px;
    z-index:1;
@@ -206,7 +206,7 @@ body{
 	text-align:center;
 }
 .information h1{
-	margin:0 auto;
+	text-align:center;
 	font-family:'Harrington';
 }
 .information p a{
@@ -475,7 +475,7 @@ input:focus,textarea:focus,#number:focus,select:focus{
 }
 
 .rating-stars ul > li.star > i.fa {
-  font-size:1.6em; 
+  font-size:1.8em; 
   color:#ccc;
 }
 .rating-stars ul > li.star.hover > i.fa {
@@ -982,6 +982,7 @@ button:hover{
 	font-weight:bold;
 	color:#FFB6C1;
 	opacity:0.8;
+	cursor:pointer;
 }
 .close:hover .close:focus{
     cursor:pointer;

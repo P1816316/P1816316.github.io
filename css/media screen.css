@@ -56,7 +56,12 @@
 	line-height:80px;
     
 }
-
+#js-search-container form input[type=text]{
+	border-radius:0;
+}
+#js-search-container form button{
+	width:20%;
+}
 
 /* home page*/
 .header{
@@ -376,18 +381,5 @@ iframe{
 	width:90%;
 }
 
-  /* feedback form*/ 
-  .wrapper{
-	  margin:0 auto;
-	  padding-left:50px;
-	  width:100%;
- }
-	.holder-1, .subject,.number{
-		width:90%;
-	}
-	#sub{
-		margin:0;
-		margin-bottom:10%;
-		margin-left:60%;
-	}
+
 }
